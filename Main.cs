@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ThisIsTheTestMod
 {
-    public class Wuerfel
+    public class Wuerfel<T>
     {
-        int b;
+        T b;
         public Wuerfel()
         {
             b = 1;
